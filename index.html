@@ -8,14 +8,15 @@
         <title>My Website</title>
         <link rel="stylesheet" href="https://js.arcgis.com/calcite-components/1.0.0-beta.86/calcite.css" as="style" type="text/css"/>
         <link rel="stylesheet" href="https://www.esri.com/etc.clientlibs/esri-sites/clientlibs/components.css" as="style" type="text/css"/>
-        <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/components/global-nav/css/gn.css">
         <link rel="stylesheet" href="./custom.css" as="style" type="text/css"/>
+        <link rel="stylesheet" href="https://webapps-cdn.esri.com/CDN/components/global-nav/css/gn.css">
         <link rel="icon" href="./esri-favicon.svg" type="image/svg">
     </head>
 
     <body>
 
         <!--Warren 1-->
+        <!--This is the global navigation section.  It goes on FOREVER.-->
 
         <nav id="globalnav" aria-label="Main">
             <button class="gnav_top-nav_menu-overlay" aria-label="Close Navigation" style="display: none;"></button>
@@ -848,10 +849,12 @@
         </nav>  
         
         <!--Warren 2-->
+        <!--This is the main section, which includes local navigation.-->
 
         <main id="main-content">
             
                 <!--Warren 2a-->
+                <!--local navigation-->
 
                 <div class="local-navigation aem-GridColumn aem-GridColumn--default--12">
                     <nav class="second-nav calcite-theme-dark" id="second-nav" aria-label="Main" data-local-expanded="false">
@@ -889,6 +892,7 @@
                 </div>
 
                 <!--Warren 2b-->
+                <!--content-->
 
                 <div>
                     <div style="height: 30vh; display: flex; justify-content: center; align-items: center;">Content</div>
@@ -899,6 +903,7 @@
         </main>        
 
         <!--Warren 3-->
+        <!--This is the global footer.-->
 
         <div id="globalfooter">
             <div class="gnav_footer" style="display: none;">
