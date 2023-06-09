@@ -1,0 +1,53 @@
+:root {
+    --theme-defaultPath: ;
+    --secondarytheme-color: #00a09e;
+
+    --theme-color: #00a09e;
+    --theme-color10: #00a09e1A;
+    --theme-color50: #00a09e80;
+    --theme-color-secondary: #00a09e;
+    --theme-color-secondary10: #00a09e1A;
+    --theme-color-secondary50: #00a09e80;
+
+    --theme-color-dark: #00a09e;
+    --theme-color-dark10: #00a09e1A;
+    --theme-color-dark50: #00a09e80;        
+    --theme-color-secondary-dark: #0079c1;
+    --theme-color-secondary-dark10: #0079c11A;
+    --theme-color-secondary-dark50: #0079c180;
+}
+
+.calcite-theme-dark {
+    --theme-color: var(--theme-color-dark);
+    --theme-color10: var(--theme-color-dark10);
+    --theme-color50: var(--theme-color-dark50);
+    --theme-color-secondary: var(--theme-color-secondary-dark);
+    --theme-color-secondary10: var(--theme-color-secondary-dark10);
+    --theme-color-secondary50: var(--theme-color-secondary-dark50);
+}
+
+.calcite-theme-light {
+    --theme-color: #00a09e;
+    --theme-color10: #00a09e;
+    --theme-color50: #00a09e80;
+    --theme-color-secondary: #00a09e;
+    --theme-color-secondary10: #00a09e1A;
+    --theme-color-secondary50: #00a09e80;
+}
+
+.theme-secondary {
+    --theme-color: var(--theme-color-secondary);
+    --theme-color10: var(--theme-color-secondary10);
+    --theme-color50: var(--theme-color-secondary50);
+}
+
+.theme-secondary .calcite-theme-light {
+    --theme-color: var(--theme-color-secondary);
+    --theme-color10: var(--theme-color-secondary10);
+    --theme-color50: var(--theme-color-secondary50);
+}
+.theme-secondary .calcite-theme-dark {
+    --theme-color: var(--theme-color-secondary-dark);
+    --theme-color10: var(--theme-color-secondary-dark10);
+    --theme-color50: var(--theme-color-secondary-dark50);
+}
